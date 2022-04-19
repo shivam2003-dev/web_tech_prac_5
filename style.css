@@ -1,0 +1,63 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+
+@media (max-width: 700px) {
+  article {
+    width: 95%;
+  }
+}
+
+.choice-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.choice-grid div {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 0 10px 0;
+  border: #dcdcdc 1px solid;
+  width: calc(32.5% - 22px);
+}
+@media (max-width: 500px) {
+  .choice-grid div {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0 10px 0;
+    border: #dcdcdc 1px solid;
+    width: calc(49% - 22px);
+  }
+  header div {
+    display: none;
+  }
+}
+.choice-grid div img {
+  width: 100%
+}
+.choice-grid div .checkbox {
+  width: 20px;
+}
+.unanswered {
+  background-color: #f4f4f4;
+}
+.highlighted{
+  background-color: #cfe3ff;
+}
+.unhighlighted {
+  opacity: 0.6;
+}
+#resultSection {
+  padding: 20px 20px 20px 20px;
+  margin: 40px 0px 20px 0px;
+}
+#restartButton{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cecece;
+}
+#restartButton:hover{
+  background-color: #e0e0e0;
+}
+.resultElement{
+  margin: 18px 0px 18px 0px;
+}

@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Word counter",
+    "version": "1.0",
+    "description" : "Counting all the words present in a document",
+    "content_scripts": [ {
+        "matches": ["<all_urls>"],
+        "js": ["counter.js"]
+      } ]
+}
+  
